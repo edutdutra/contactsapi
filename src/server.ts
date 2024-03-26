@@ -3,10 +3,10 @@ import db from "./db";
 
 const DB = db;
 
+// host: # IP #
 app
     .listen({
         port: 3333,
-        // host: # IP #
     })
     .then(() => {
         console.log('HTTP Server Running!')
